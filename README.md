@@ -7,3 +7,6 @@ Source: https://www.flaticon.com/packs/pokemon-go
 Here on github so I can fetch it via http into a JS game prototype at 
 https://repl.it/@payne/mini-asteroids
 
+```
+for f in *.svg; do inkscape -z -e ${f}.png -w 32 -h 32 $f; done
+```
